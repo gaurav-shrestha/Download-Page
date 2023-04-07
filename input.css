@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    h3 {
+        @apply font-bold text-4xl w-full mb-8 text-darkGrayishBlue md:text-5xl;
+    }
+    p {
+        @apply leading-9 max-w-3xl mb-2 text-grayishBlue;
+    }
+}
+
+@layer components {
+    .download-btn {
+        @apply rounded-full px-8 py-4 transition duration-200 hover:bg-opacity-80;
+    }
+}
+
+.section-container {
+    @apply max-w-6xl text-center mx-auto;
+}
+
 body {
     background-image: url("/images/bg-header-mobile.png");
     background-repeat: no-repeat;
