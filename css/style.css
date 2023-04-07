@@ -717,10 +717,6 @@ p {
   scroll-behavior: smooth;
 }
 
-.border {
-  border-width: 1px;
-}
-
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
