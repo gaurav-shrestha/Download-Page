@@ -603,6 +603,18 @@ p {
   margin-bottom: 0.5rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -663,6 +675,10 @@ p {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
 }
 
 .text-white {
